@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_20210927_wa0029"
+    tools:context=".MainActivity7">
+
+    <LinearLayout
+        android:id="@+id/linearLayout13"
+        android:layout_width="259dp"
+        android:layout_height="191dp"
+        android:background="#B9E3ED"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32">
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            app:srcCompat="@drawable/pir" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:fontFamily="@font/mbold"
+            android:text="Pir"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="126dp"
+        android:layout_height="24dp"
+        android:fontFamily="@font/mbold"
+        android:text="Deskripsi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.618" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="320dp"
+        android:layout_height="126dp"
+        android:background="#F9C330"
+        android:fontFamily="@font/mreg"
+        android:text="Pir menghasilkan buah yang enak dimakan karena mengandung banyak air,masir dan manis. Pir adalah buah pohon yang berasal dari daerah beriklim tropis di Eropa Barat, Asia dan Afrika Utara. pohon berketinggian sedang,bisa mencapai 10-17 meter."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.781" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout23"
+        android:layout_width="191dp"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.27"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043">
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="intentScreenbackPir"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="64dp"
+        android:layout_height="33dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout13"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout13"
+        app:srcCompat="@drawable/ic_speaker" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="162dp"
+        android:layout_height="21dp"
+        android:fontFamily="@font/mbold"
+        android:text="Deskripsi Buah"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout23"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout23" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_20210927_wa0029"
+    tools:context=".MainActivity8">
+
+    <LinearLayout
+        android:id="@+id/linearLayout14"
+        android:layout_width="259dp"
+        android:layout_height="191dp"
+        android:background="#B9E3ED"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.315">
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/pisang" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:fontFamily="@font/mbold"
+            android:text="Pisang"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="151dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/mbold"
+        android:text="Deskripsi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.629" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="328dp"
+        android:layout_height="158dp"
+        android:background="#F9C330"
+        android:fontFamily="@font/mreg"
+        android:text="Pisang adalah tersusun dalam tandan dengan kelompok-kelompok tersusun menjari yang disebut sisir. hampir semua buah pisang memiliki kulit berwarna kuning ketika matang, meskipun ada beberapa yang berwarna jingga, hijau, merah,ungu.atau bahkan hampir hitam. buah pisang sebagai bahan pangan merupakan sumber energi (karbohidrat) dan mineral, terutama kalium."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.841" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout24"
+        android:layout_width="212dp"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.206"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043">
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:onClick="intentScreenbackPisang"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="56dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout14"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout14"
+        app:srcCompat="@drawable/ic_speaker" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="164dp"
+        android:layout_height="28dp"
+        android:fontFamily="@font/mbold"
+        android:text="Deskripsi Buah"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout24"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout24" />
+
+
+</android.support.constraint.ConstraintLayout>

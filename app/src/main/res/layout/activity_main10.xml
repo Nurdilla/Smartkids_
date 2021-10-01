@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_20210927_wa0029"
+    tools:context=".MainActivity10">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout16"
+        android:layout_width="259dp"
+        android:layout_height="191dp"
+        android:background="#B9E3ED"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.401"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.287">
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            app:srcCompat="@drawable/stroberi" />
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:fontFamily="@font/mbold"
+            android:text="Strowbery"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="148dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="272dp"
+        android:fontFamily="@font/mbold"
+        android:text="Deskripsi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="313dp"
+        android:layout_height="175dp"
+        android:background="#F9C330"
+        android:text="Strowbery disukai banyak orang,terutama karena aromanya yang khas,warna merah cerah yang kaya akan pigmen antosianin yang mengandung antioksidan tinggi dan juga senyawa-senyawa lain seperti serat,vitamin c,potasain dan asam ellagic,dan dikonsumsi dalam jumlah besar baik dimakan langsung atau dalam makanan olahan seperti manisan,jus buah,pie,es krim,milk shake, dan sebagainya"
+        android:fontFamily="@font/mreg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.848" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout26"
+        android:layout_width="191dp"
+        android:layout_height="28dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046">
+
+        <ImageView
+            android:id="@+id/imageView37"
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            android:onClick="intentScreenbackstroberry"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="43dp"
+        android:layout_height="38dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout16"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout16"
+        app:srcCompat="@drawable/ic_speaker" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="152dp"
+        android:layout_height="23dp"
+        android:fontFamily="@font/mbold"
+        android:text="Deskripsi Buah"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout26"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout26" />
+
+
+</android.support.constraint.ConstraintLayout>

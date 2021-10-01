@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_20210927_wa0029"
+    tools:context=".MainActivity6">
+
+    <LinearLayout
+        android:id="@+id/linearLayout12"
+        android:layout_width="259dp"
+        android:layout_height="191dp"
+        android:background="#B9E3ED"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.346">
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            app:srcCompat="@drawable/nanas" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:fontFamily="@font/mbold"
+            android:text="Nanas"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="113dp"
+        android:layout_height="22dp"
+        android:fontFamily="@font/mbold"
+        android:text="Deskripsi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.637" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="324dp"
+        android:layout_height="134dp"
+        android:background="#F9C330"
+        android:text="Nanas adalah tumbuhan tropis dengan buah yang dapat dimakan dan tumbuhan yang paling penting secara ekonomi. nanas adalah tumbuhan asli Amerika selatan ,nanas tumbuh sebagai semak kecil. bunga individu dari tanaman yang tidak diserbuki menyatu untuk membentuk buah yang banyak"
+        android:fontFamily="@font/mreg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.814" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout22"
+        android:layout_width="187dp"
+        android:layout_height="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05">
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="43dp"
+            android:layout_height="match_parent"
+            android:onClick="intentScreenbackNanas"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="60dp"
+        android:layout_height="39dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout12"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout12"
+        app:srcCompat="@drawable/ic_speaker" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="145dp"
+        android:layout_height="25dp"
+        android:fontFamily="@font/mbold"
+        android:text="Deskripsi Buah"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout22"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout22" />
+
+</android.support.constraint.ConstraintLayout>

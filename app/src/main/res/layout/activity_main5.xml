@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_20210927_wa0029"
+    tools:context=".MainActivity5">
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="259dp"
+        android:layout_height="191dp"
+        android:background="#B9E3ED"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.338">>
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            app:srcCompat="@drawable/lemon" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:fontFamily="@font/mbold"
+            android:text="Lemon"
+            android:textAlignment="center" />
+
+    </LinearLayout><![CDATA[
+    >
+
+
+
+
+
+
+
+    ]]>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="130dp"
+        android:layout_height="24dp"
+        android:fontFamily="@font/mbold"
+        android:text="Deskripsi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.659" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="349dp"
+        android:layout_height="122dp"
+        android:background="#F9C330"
+        android:text="Lemon adalah  sejenis jeruk yang buahnya biasa dipakai sebagai penyedap dan penyegar dalam banyak seni boga dunia. Pohon berukuran sedang ini dapat mencapai 6m dan tumbuh didaerah beriklim tropis dan sub-tropis serta tidak tahan akan cuaca dingin."
+        android:fontFamily="@font/mreg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.821" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout21"
+        android:layout_width="199dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="28dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="34dp"
+            android:layout_height="40dp"
+            android:onClick="intentScreenbackLemon"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="165dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/mbold"
+        android:text="Deskripsi Buah"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout21"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout21" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="45dp"
+        android:layout_height="29dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout11"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout11"
+        app:srcCompat="@drawable/ic_speaker" />
+
+</android.support.constraint.ConstraintLayout>
